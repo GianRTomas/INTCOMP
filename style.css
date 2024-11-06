@@ -1,21 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
+
 @font-face {
-  font-family: 'Pixel Sans Serif Condensed';
-  src: url(PixelSansSerifCondensed.ttf);
+  font-family: 'Pixel';
+  src: url(Pixel.ttf);
 } 
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Pixel Sans Serif Condensed;
+  font-family: Pixel;
   letter-spacing: 1px;
 }
 
 body,
 input {
-  font-family: Pixel Sans Serif Condensed;
+  font-family: Pixel;
 }
 
 .container {
