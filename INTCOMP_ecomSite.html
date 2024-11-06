@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiyan</title>
+    <link rel="icon" type="image/png" href="">
+
+<style>
+
+body {
+  background-color: #363636;
+}
+
+/*=============================================================================================================================================================================================*/
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 48px;
+  background-color: #00817f;
+  z-index: 6;
+}
+
+nav .nav-content{
+  display: flex;
+  align-items: center;
+}
+
+.nav-content .nav-links, .nav-links-left{
+  display: flex;
+  height: 32px;
+  padding: 0px;
+}
+
+.nav-content .nav-links li, .nav-links-left li {
+  list-style: none;
+
+}
+.nav-links li a, .nav-links-left li a {
+  color: #ffffff;
+  font-family: Pixel Sans Serif Condensed;
+  padding: 38px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  font-size: 16px;
+  border: solid rgba(0, 0, 0, 0) 0px;
+}
+
+.nav-links li a:hover, .nav-links-left li a:hover {
+
+  color:rgb(230, 230, 230);
+}
+
+.nav-links {
+  position: absolute;
+
+}
+
+.nav-links-left {
+  position: absolute;
+  left: 1500px;
+}
+
+#RbLogo {
+  position: absolute;
+  top: 3.6px;
+  height: 63px;
+  left: 9px;
+}
+
+#RbText {
+  position: absolute;
+  top: 9px;
+  height: 54px;
+  left: 90px;
+}
+
+#MenuButton {
+  position: absolute;
+  height: 50px;
+  top: 56%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+/*=============================================================================================================================================================================================*/
+
+.sidebar{
+  margin: 0;
+  position: fixed;
+  top: 62px; 
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #53122B;
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidebar li{
+  width: 100%;
+  left: 10%;
+  font-family: koulen;
+  color: #FEC00B;
+  margin-left: 6.5%;
+  margin-top: 3%;
+}
+.sidebar a{
+  width: 100%;
+  color: #FEC00B;
+  text-decoration: none;
+}
+
+/*=============================================================================================================================================================================================*/
+
+.hourglass-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  max-width: 1800px;
+  justify-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+.hourglass {
+  display: flex;
+  object-fit: cover;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  font-family: Pixel Sans Serif Condensed;
+  color: white;
+  font-size: large;
+  margin: 0;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-content">
+                <img id="MenuButton" src="MenuButton.png" alt="" onclick="toggleSidebar()">
+                <img id="RbLogo" src="">
+                <img id="RbText" src="">
+        <div class="logo">
+          <a href="#"></a>
+        </div>
+      
+        <ul class="nav-links">
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+
+        <ul class="nav-links-left">
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+          </ul>
+
+        <ul class="sidebar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="RetrobitesMenu.html">Menu</a></li>
+          <li><a href="RetrobitesDelivery.html">Delivery</a></li>
+          <li><a href="RetrobitesLocations.html">Locations</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section>
+      <div class="hourglass-container">
+        <div class="hourglass">
+          <img src="ezgif-3-0091f8945f.gif" alt="">
+          <p>Dashboard Under Construction</p>
+        </div>
+
+      </div>
+    </section>
+
+</body>
+</html>
